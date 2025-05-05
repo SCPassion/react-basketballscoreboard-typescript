@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "CursedTimerUlil-Aznm";
+  src: url("./assets/CursedTimerUlil-Aznm.ttf");
+}
+
+@theme {
+  --font-aznm: "CursedTimerUlil-Aznm", sans-serif;
+  --font-sans: "Verdana", sans-serif;
+}
