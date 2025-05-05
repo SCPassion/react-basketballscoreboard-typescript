@@ -13,7 +13,7 @@ export default function ScoreButton({
 }: ScoreButtonProps) {
   return (
     <button
-      className="size-11.25 cursor-pointer rounded-lg border-2 border-[#9AABD8] text-[#9AABD8]"
+      className="size-11.25 cursor-pointer rounded-lg border-2 border-[#9AABD8] text-[#9AABD8] transition-all hover:scale-115 hover:animate-pulse"
       onClick={() => handleClick(team, points)}
     >
       {children}
